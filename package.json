@@ -1,0 +1,174 @@
+{
+  "name": "easyzoom",
+  "displayName": "EasyZoom",
+  "description": "Enable editor zoom by use of ctrl + mousewheel",
+  "version": "0.0.1",
+  "publisher": "NabeelValley",
+  "engines": {
+    "vscode": "^1.23.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [],
+  "main": "./out/extension",
+  "contributes": {
+    "configurationDefaults": {
+      "[abap]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[bat]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[bibtex]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[clojure]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[coffeescript]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[c]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[cpp]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[csharp]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[css]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[diff]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[dockerfile]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[fsharp]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[go]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[groovy]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[handlebars]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[html]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[ini]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[java]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[javascript]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[json]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[latex]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[less]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[lua]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[makefile]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[markdown]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[objective-c]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[objective-cpp]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[perl]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[php]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[powershell]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[jade]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[python]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[r]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[razor]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[ruby]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[rust]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[scss]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[sass]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[shaderlab]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[shellscript]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[sql]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[swift]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[typescript]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[tex]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[vb]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[xml]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[xsl]": {
+        "editor.mouseWheelZoom": true
+      },
+      "[yaml]": {
+        "editor.mouseWheelZoom": true
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install",
+    "test": "npm run compile && node ./node_modules/vscode/bin/test"
+  },
+  "devDependencies": {
+    "typescript": "^2.6.1",
+    "vscode": "^1.1.6",
+    "@types/node": "^7.0.43",
+    "@types/mocha": "^2.2.42"
+  }
+}
