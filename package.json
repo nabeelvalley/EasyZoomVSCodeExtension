@@ -4,6 +4,11 @@
   "description": "Enable editor zoom by use of ctrl + mousewheel",
   "version": "0.0.1",
   "publisher": "NabeelValley",
+  "icon": "icon.png",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/nabeelvalley/EasyScrollVSCodeExtension.git"
+    },
   "engines": {
     "vscode": "^1.23.0"
   },
