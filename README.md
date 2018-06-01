@@ -1,7 +1,9 @@
-# scrollzoom README
+# EasyScroll for Visual Studio Code
+## Description
+A simple extension to allow for mousewheel/scroll zoom in the editor window 
+
 ## Features
-Enable Mouse Wheel Zoom for editors
+Enable Mouse Wheel Zoom for editor window
 
-## How to Use
-
-Make use of ctrl + scroll to zoom
+## Usage
+Hold in the ctrl key while scrolling in order to zoom in or out
