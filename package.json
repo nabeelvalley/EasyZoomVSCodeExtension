@@ -2,17 +2,26 @@
   "name": "easyzoom",
   "displayName": "EasyZoom",
   "description": "Enable editor zoom by use of ctrl + mousewheel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "NabeelValley",
   "icon": "icon.png",
   "repository": {
-        "type": "git",
-        "url": "https://github.com/nabeelvalley/EasyScrollVSCodeExtension.git"
-    },
+    "type": "git",
+    "url": "https://github.com/nabeelvalley/EasyZoomVSCodeExtension.git"
+  },
   "engines": {
     "vscode": "^1.23.0"
   },
-  "categories": ["Other"],
+  "categories": [
+    "Keymaps"
+  ],
+  "keywords": [
+    "keybindings",
+    "keymap",
+    "zoom",
+    "scroll",
+    "mousewheel"
+  ],
   "activationEvents": [],
   "main": "./out/extension",
   "contributes": {
@@ -161,7 +170,35 @@
       "[yaml]": {
         "editor.mouseWheelZoom": true
       }
-    }
+    },
+    "keybindings": [
+      {
+        "key": "ctrl+=",
+        "command": "editor.action.fontZoomIn"
+      },
+      {
+        "key": "ctrl+alt+=",
+        "command": "workbench.action.zoomIn"
+      },
+
+      {
+        "key": "ctrl+-",
+        "command": "editor.action.fontZoomOut"
+      },
+      {
+        "key": "ctrl+alt+-",
+        "command": "workbench.action.zoomOut"
+      },
+
+      {
+        "key": "ctrl+0",
+        "command": "editor.action.fontZoomReset"
+      },
+      {
+        "key": "ctrl+alt+0",
+        "command": "workbench.action.zoomReset"
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
